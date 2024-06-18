@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import eursLogo from './assets/eurs.svg';
+import stasisLogo from './assets/stasis-logo.svg';
 import foxImage from './assets/fox.png';
 import './App.css'
 
@@ -10,10 +10,9 @@ function App() {
     <>
       <div>
         <a href="https://stasis.net/eurs-info" target="_blank">
-          <img src={eursLogo} className="logo" alt="EURS logo" />
+          <img src={stasisLogo} className="logo" alt="Stasis logo" />
         </a>
       </div>
-      <h1>Stasis App</h1>
       <h2>Tap on funny fox!</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

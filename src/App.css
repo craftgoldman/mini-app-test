@@ -6,7 +6,7 @@
 }
 
 .logo {
-  height: 6em;
+  height: 4em;
   padding: 0.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -19,8 +19,8 @@
 }
 
 .picture {
-  height: 10em;
-  padding: 0.5em;
+  height: 12em;
+  padding: 2em;
   will-change: filter;
   transition: filter 300ms;
 }
