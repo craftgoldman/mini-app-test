@@ -2,8 +2,6 @@ import { useState } from 'react'
 import eursLogo from './assets/eurs.svg'
 import './App.css'
 
-import WebApp from '@twa-dev/sdk'
-
 function App() {
   const [count, setCount] = useState(0)
 
